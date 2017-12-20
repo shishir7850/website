@@ -1,4 +1,211 @@
 <!DOCTYPE HTML>
 <html>
-<h1> HEllo World </h1>
+<header>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</header>
+
+<style>
+
+.nav-pills {
+  font-size: 1.7em;
+  background-color:black;
+}
+
+.nav {
+	width: 1285px;
+	left: 0;
+	margin-left: -20px;
+}
+
+body {
+	font-family: Lobster;
+	margin: 0;
+	border: 0;
+}
+
+.pageOne {
+  background:url("https://cdn.pixabay.com/photo/2015/01/08/15/54/lines-593191_1280.jpg");
+  background-size:cover;
+  height:650px;
+  color: white;
+  margin-top: 0;
+}
+
+.pageTwo {
+	background:url( https://cdn.pixabay.com/photo/2017/03/27/13/38/abstract-2178786_1280.jpg);
+	background-size:cover;
+  	height:750px;
+  	color: white;
+  	margin-top: 0;
+}
+
+.pageThree {
+  background:url( https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg);
+  background-size:cover;
+  height:750px;
+  color: white;
+  margin-top: 0;
+}
+
+.page4 {
+  background-color: black;
+  background-size: cover;
+  height: 150px;
+  margin-top: -20px;
+}
+
+.btn-default {
+  font-family: Lobster;
+  color:blue;
+  background-color:black;
+  color:#337ab7;
+  font-size:1.7em;
+  border-color:black;
+
+}
+
+h1 {
+  padding:0px;
+  margin-top: 0px;
+  font-size: 5.0em;
+}
+
+.block {
+	background-color: black;
+	opacity: 0.6;
+	padding: 10px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+.dp {
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+
+#facebook {
+	color: rgb(59, 89, 163);
+}
+
+#github {
+	color: rgb(102, 43, 129);
+}
+
+#linkedin {
+	color: rgb(0, 127, 178);
+}
+
+#mail {
+	color: #FF7B27;
+}
+
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 200px;
+  background: cover;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+}
+
+</style>
+
+<body>
+  <div class="container-fluid">
+    <ul class="nav nav-pills">
+      <li>
+        <a>Shishir Lakkadi</a>
+      <li class="pull-right">
+        <a href="#page3">Portfolio</a>
+      </li>
+      <li class="pull-right">
+        <a href="#page2">About Me</a>
+      <li>  
+    </ul>
+  </div>
+
+  <!-- Page 1 -->
+  <div class="pageOne" id="page1">
+  	<br><br><br><br><br><br><br><br>
+  	<div class="block text-center">
+    	<h1>Shishir Lakkadi</h1>
+    	<h2> It's not what you achieve, it's what you overcome. That's what defines your career. </h2>
+    </div>
+    <div class="btnList text-center">
+      <a class="btn btn-default" href="https://www.facebook.com/shishir.lakkadi" target="_blank"><i id="facebook" class="fa fa-facebook-official fa-lg" aria-hidden="true"></i> Facebook</a> 
+      <a class="btn btn-default" href="https://www.linkedin.com/in/shishir-l-8b3a31a8/" target="_blank"><i id="linkedin" class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</a>
+      <a class="btn btn-default" href="https://github.com/shishir7850" target="_blank"><i id="github" class="fa fa-github-square fa-lg" aria-hidden="true"></i> Github</a>
+      <a class="btn btn-default" href="mailto:shishir7850@gmail.com"><i id="mail" class="fa fa-envelope fa-lg	" aria-hidden="true"></i> Mail</a>
+    </div>
+  </div>
+
+  <div class="pageTwo" id="page2">
+  	<div class="row">
+  		<div class="col-md-6">
+  			<h1 class="text-center" style="padding-top: 100px;"> About Me</h1>
+  			<p style="padding-top: 50px; padding-left:10px" > I am a junior at Purdue University and I'm pursuing a Bachelor's in Computer Science. What motivates me is the belief that in Computer Science there is always a scope to learn more. I love anything to do with technology and playing sports.
+        </p>
+  		</div>
+  		<div class="col-md-6">
+  			<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/1545955_10200808538335830_5947739884552651011_n.jpg?oh=b83ce3cd52098f22d83a49fe79ea510c&oe=59E0EBC5" class="dp"/>
+  		</div>
+  	</div>
+  </div>
+
+  <div class="pageThree" id="page3">
+    <h1 class="text-center" style="padding-top: 50px; padding-bottom: 50px">Portfolio</h1>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <a href="https://github.com/shishir7850/Weather" target="_blank"><img class="thick-green-border" alt="OpenWeatherApi" src="https://upload.wikimedia.org/wikipedia/commons/1/15/OpenWeatherMap_logo.png"></a>
+      <h2 style="opacity: 0.8">OpenWeatherMap</h2>
+      <p style="opacity: 0.7">Web application which uses OpenWeatherMap API to determine the weather using zipcode and country code</p>
+      </div>
+      <div class="col-md-4 text-center">
+      <br><br>
+        <a href="https://github.com/shishir7850/Wowza" target="_blank"><img class="thick-green-border" alt="Android Video Streaming" src="https://1yjmqg26uh9k15zq0o1pderc-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/android-image.png"></a><br><br><br>
+        <h2 style="opacity:0.8">Android Streaming</h2>
+        <p style="opacity:0.7">An Android application which streams live video from phone to a webpage through Wowza Streaming Engine</p>
+      </div>
+      <div class="col-md-4 text-center"><br><br>
+        <a href="https://github.com/shishir7850/Lexi" target="_blank"> <img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://flashphoner.com/wp-content/uploads/2016/04/aws-logo-100584713-primary.idge_.png"></a><br><br>
+        <h2 style="opacity: 0.8"> Lexi </h2>
+        <p style="opacity: 0.7">Lexi is a product of seven routines, intricately built into one Alexa Skill. These routines include Texting, Workout, Weather, Alarm, Todo list, Timer, News.</p>
+      </div>
+    </div>
+  </div>
+  <div class="page4">
+    <br>
+    <div class="footer text-center">
+      <h3>
+        <a href="#page1">Shishir Lakkadi </a>
+        |
+        <a href="#page2">About Me </a> |
+        <a href="#page3">Portfolio</a> <br>
+      </h3>  
+      <p class="text-primary" style="font-size: 20px;">Copyright © Shishir Lakkadi 2017 All Rights reserved</p>
+    </div>  
+  </div>
+</body>
 </html>
